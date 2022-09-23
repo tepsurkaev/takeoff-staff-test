@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "email": "hollywood_bob@mail.ru",
+      "password": "$2a$10$ob8uJ6ns/sEK3fEVmKtX3.UUbWY2xCdgmKhK9DbDSqQX.95G.14Hy",
+      "id": 2
+    }
+  ],
+  "contacts": [
+    {
+      "name": "bob",
+      "id": 1,
+      "email": "boba@mail.ru",
+      "phone": "+999 999 99 88"
+    },
+    {
+      "name": "Bill",
+      "email": "bill@maukl.ru",
+      "phone": "4168468",
+      "id": 2
+    },
+    {
+      "name": "Jimmy",
+      "email": "jim@mail.ru",
+      "phone": "+7955 595 49 49",
+      "id": 3
+    }
+  ]
+}
