@@ -53,6 +53,7 @@ export const Search = () => {
 
   const handleClearSearchResult = () => {
     dispatch(fetchAllContacts());
+    setSearch("");
   };
 
   return (
@@ -62,6 +63,7 @@ export const Search = () => {
         variant="outlined"
         placeholder="Search contact by name"
         size="small"
+        value={search}
       />
       <StyledButton variant="contained" onClick={() => dispatch(searching())}>
         Search

@@ -153,10 +153,8 @@ const contactsSlice = createSlice({
       state.loading = true;
     });
     builder.addCase(editContact.fulfilled, (state, action) => {
-      console.log(action, "action");
       state.loading = false;
       state.contacts = state.contacts.map((contact) => {
-        console.log(contact, "contact");
         if (contact.id === action.meta.arg.id) {
           return {
             ...contact,

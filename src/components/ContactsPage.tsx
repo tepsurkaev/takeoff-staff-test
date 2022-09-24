@@ -17,13 +17,15 @@ export const ContactsPage = () => {
     dispatch(fetchAllContacts());
   }, [dispatch]);
 
-  loading && (
-    <Box
-      sx={{ display: "flex", alignItems: "center", justifyContent: "center" }}
-    >
-      <CircularProgress />
-    </Box>
-  );
+  if (loading) {
+    return (
+      <Box
+        sx={{ display: "flex", alignItems: "center", justifyContent: "center" }}
+      >
+        <CircularProgress />
+      </Box>
+    );
+  }
 
   return (
     <>

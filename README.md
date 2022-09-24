@@ -9,6 +9,10 @@ cd takeoff-staff-test && npm install
 npm start
 ```
 
+Данные для входа в личный кабинет:
+ - email: hollywood_bob@mail.ru
+ - passowrd: hollywood_bob
+
 О проекте:
  - React/Redux/Typescript
  - Для сервера используется моковый json-server-auth

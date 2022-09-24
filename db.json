@@ -10,13 +10,13 @@
     {
       "name": "bob",
       "id": 1,
-      "email": "boba@mail.ru",
+      "email": "bob@mail.ru",
       "phone": "+999 999 99 88"
     },
     {
       "name": "Bill",
-      "email": "bill@maukl.ru",
-      "phone": "4168468",
+      "email": "bill@mail.ru",
+      "phone": "+7595 595 15 15",
       "id": 2
     },
     {
